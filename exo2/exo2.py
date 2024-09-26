@@ -7,6 +7,11 @@ Examples:
     solution('abc', 'bc') # returns true
     solution('abc', 'd') # returns false
 """
+def solution(first_string, second_string):
+    return first_string.endswith(second_string)
+
+print(solution('abc', 'bc'))  # returns True
+print(solution('abc', 'd'))   # returns False
 
 """
 Create unit test using those cases:
