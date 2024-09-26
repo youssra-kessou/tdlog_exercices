@@ -50,7 +50,7 @@ def processLines(lines) -> str:
 
     return "OK" if backlog == 0 else "KO"
 
-lines = ["3",   "5",   "2 1", "1 0", "2 -3" ]
+lines = [ "3",   "5",   "2 1", "1 0", "2 -3" ]
 
 print(processLines(lines))
 
